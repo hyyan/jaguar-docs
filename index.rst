@@ -13,6 +13,7 @@ Welcome to Jaguar - PHP Graphic Library's documentation!
    usage/Colors
    usage/Canvas
    usage/Drawables
+   usage/Gradients
    
 Indices and tables
 ==================
