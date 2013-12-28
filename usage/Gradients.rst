@@ -2,7 +2,7 @@ Gradients
 =========
 
 Let's face it , gradient is a necessary feature in any graphic library , it 
-importants to generate styles and some kind of advanced image effects like
+is important to generate styles and some kind of advanced image effects like
 Reflection for example. for that Jaguar provides a simple gradient generator
 which supports four kind of gradients which are :
 
