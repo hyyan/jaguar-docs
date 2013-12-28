@@ -9,6 +9,7 @@ Welcome to Jaguar - PHP Graphic Library's documentation!
    :glob:
    :maxdepth: 3
    
+   usage/Geometry System
 	
 Indices and tables
 ==================
