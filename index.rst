@@ -10,6 +10,7 @@ Welcome to Jaguar - PHP Graphic Library's documentation!
    :maxdepth: 3
    
    usage/Geometry System
+   usage/Colors
 	
 Indices and tables
 ==================
