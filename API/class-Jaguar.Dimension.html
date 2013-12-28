@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Jaguar\Dimension | Jaguar - PHP Graphic Library</title>
+
+	<script type="text/javascript" src="resources/combined.js?1743152644"></script>
+	<script type="text/javascript" src="elementlist.js?2331560020"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Jaguar - PHP Graphic Library</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-Jaguar.html" title="Summary of Jaguar"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Jaguar.html">Jaguar<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.html">Action<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.Blur.html">Blur</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Pixelate.html">Pixelate</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Preset.html">Preset</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.html">Drawable<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Drawable.Border.html">Border</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Style.html">Style</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Text.html">Text</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Jaguar.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Jaguar.Format.html">Format</a>
+						</li>
+				<li><a href="namespace-Jaguar.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Jaguar.AbstractCanvas.html">AbstractCanvas</a></li>
+				<li><a href="class-Jaguar.Box.html">Box</a></li>
+				<li><a href="class-Jaguar.Canvas.html">Canvas</a></li>
+				<li><a href="class-Jaguar.CompressableCanvas.html">CompressableCanvas</a></li>
+				<li><a href="class-Jaguar.Coordinate.html">Coordinate</a></li>
+				<li class="active"><a href="class-Jaguar.Dimension.html">Dimension</a></li>
+				<li><a href="class-Jaguar.Font.html">Font</a></li>
+				<li><a href="class-Jaguar.ImageFile.html">ImageFile</a></li>
+				<li><a href="class-Jaguar.Transformation.html">Transformation</a></li>
+				<li><a href="class-Jaguar.Util.html">Util</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Jaguar.CanvasFactory.html">CanvasFactory</a></li>
+				<li><a href="class-Jaguar.CanvasInterface.html">CanvasInterface</a></li>
+				<li><a href="class-Jaguar.EqualsInterface.html">EqualsInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Dimension</h1>
+
+
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+<b><span>Jaguar\Dimension</span></b>			
+			 implements 
+				<a href="class-Jaguar.EqualsInterface.html"><span>Jaguar\EqualsInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Jaguar.html">Jaguar</a><br />
+		
+
+		<b>Located at</b> Jaguar/Dimension.php<br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( <span>integereger <var>$width</var> = <span class="php-num">0</span></span>, <span>integereger <var>$height</var> = <span class="php-num">0</span></span> )</code>
+
+			<div class="description short">
+				
+<p>construct new dimension object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>construct new dimension object</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$width</var></dt>
+						<dd><code>integereger</code><br>$width</dd>
+						<dt><var>$height</var></dt>
+						<dd><code>integereger</code><br>$height</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setWidth" id="_setWidth">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setWidth">#</a>
+			<code>setWidth( <span>integer <var>$width</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set Width</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set Width</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$width</var></dt>
+						<dd><code>integer</code><br>$width</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setHeight" id="_setHeight">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setHeight">#</a>
+			<code>setHeight( <span>integer <var>$height</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set Height</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set Height</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$height</var></dt>
+						<dd><code>integer</code><br>$height</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getWidth" id="_getWidth">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getWidth">#</a>
+			<code>getWidth( )</code>
+
+			<div class="description short">
+				
+<p>Get Width</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get Width</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getHeight" id="_getHeight">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getHeight">#</a>
+			<code>getHeight( )</code>
+
+			<div class="description short">
+				
+<p>Get Height</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get Height</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setSize" id="_setSize">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setSize">#</a>
+			<code>setSize( <span><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code> <var>$dimension</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set size</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set size</p>
+
+<p>set new width and height for the current dimension using the width and the
+hight of the passed dimension</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$dimension</var></dt>
+						<dd><code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br>$dimension</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getSize" id="_getSize">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getSize">#</a>
+			<code>getSize( )</code>
+
+			<div class="description short">
+				
+<p>Get new Dimension object with same width and height</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get new Dimension object with same width and height</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="resize" id="_resize">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_resize">#</a>
+			<code>resize( <span>integer <var>$width</var></span>, <span>integer <var>$height</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Rsize the current dimenison</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Rsize the current dimenison</p>
+
+<p>set new width and height for the current dimension object</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$width</var></dt>
+						<dd><code>integer</code><br>$width</dd>
+						<dt><var>$height</var></dt>
+						<dd><code>integer</code><br>$height</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="translate" id="_translate">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_translate">#</a>
+			<code>translate( <span>integer <var>$dx</var></span>, <span>integer <var>$dy</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Translates this dimension, with size (w,h), by {dx} and {dy} so that it now
+represents the dimension {dx+w,dy+h}</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Translates this dimension, with size (w,h), by {dx} and {dy} so that it now
+represents the dimension {dx+w,dy+h}</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$dx</var></dt>
+						<dd><code>integer</code><br>$dx</dd>
+						<dt><var>$dy</var></dt>
+						<dd><code>integer</code><br>$dy</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="equals" id="_equals">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_equals">#</a>
+			<code>equals( <span>mixed <var>$other</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Check that the current object which implements this interfcae is equal to
+another object from the same type</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check that the current object which implements this interfcae is equal to
+another object from the same type</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$other</var></dt>
+						<dd><code>mixed</code><br>$other</dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code>InvalidArgumentException</code><br>if the passed param type is invalid<br />
+					</div>
+
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-Jaguar.EqualsInterface.html#_equals">Jaguar\EqualsInterface::equals()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__toString" id="___toString">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___toString">#</a>
+			<code>__toString( )</code>
+
+			<div class="description short">
+				
+<p>Returns a string representation for the current dimension object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns a string representation for the current dimension object</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Jaguar - PHP Graphic Library API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

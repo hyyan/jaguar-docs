@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Jaguar\Action\EdgeDetection | Jaguar - PHP Graphic Library</title>
+
+	<script type="text/javascript" src="resources/combined.js?1743152644"></script>
+	<script type="text/javascript" src="elementlist.js?2331560020"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Jaguar - PHP Graphic Library</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-Jaguar.Action.html" title="Summary of Jaguar\Action"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Jaguar.html">Jaguar<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Jaguar.Action.html">Action<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.Blur.html">Blur</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Pixelate.html">Pixelate</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Preset.html">Preset</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.html">Drawable<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Drawable.Border.html">Border</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Style.html">Style</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Text.html">Text</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Jaguar.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Jaguar.Format.html">Format</a>
+						</li>
+				<li><a href="namespace-Jaguar.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Jaguar.Action.AbstractAction.html">AbstractAction</a></li>
+				<li><a href="class-Jaguar.Action.Bevel.html">Bevel</a></li>
+				<li><a href="class-Jaguar.Action.BoxAction.html">BoxAction</a></li>
+				<li><a href="class-Jaguar.Action.ColorSlice.html">ColorSlice</a></li>
+				<li><a href="class-Jaguar.Action.Convolution.html">Convolution</a></li>
+				<li><a href="class-Jaguar.Action.Crop.html">Crop</a></li>
+				<li class="active"><a href="class-Jaguar.Action.EdgeDetection.html">EdgeDetection</a></li>
+				<li><a href="class-Jaguar.Action.Flip.html">Flip</a></li>
+				<li><a href="class-Jaguar.Action.Light.html">Light</a></li>
+				<li><a href="class-Jaguar.Action.Mirror.html">Mirror</a></li>
+				<li><a href="class-Jaguar.Action.Overlay.html">Overlay</a></li>
+				<li><a href="class-Jaguar.Action.Resize.html">Resize</a></li>
+				<li><a href="class-Jaguar.Action.Rotate.html">Rotate</a></li>
+				<li><a href="class-Jaguar.Action.Sharpen.html">Sharpen</a></li>
+				<li><a href="class-Jaguar.Action.Sketchy.html">Sketchy</a></li>
+				<li><a href="class-Jaguar.Action.Smooth.html">Smooth</a></li>
+				<li><a href="class-Jaguar.Action.Unsharpen.html">Unsharpen</a></li>
+				<li><a href="class-Jaguar.Action.Watermark.html">Watermark</a></li>
+				<li><a href="class-Jaguar.Action.Wavy.html">Wavy</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Jaguar.Action.ActionInterface.html">ActionInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class EdgeDetection</h1>
+
+
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-Jaguar.Action.AbstractAction.html"><span>Jaguar\Action\AbstractAction</span></a>
+			
+			 implements 
+				<a href="class-Jaguar.Action.ActionInterface.html"><span>Jaguar\Action\ActionInterface</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Jaguar\Action\EdgeDetection</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Jaguar.html">Jaguar</a>\<a href="namespace-Jaguar.Action.html">Action</a><br />
+		
+
+		<b>Located at</b> Jaguar/Action/EdgeDetection.php<br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( <span>string <var>$type</var> = <code><a href="class-Jaguar.Action.EdgeDetection.html#GRADIENT_NORTH">Jaguar\Action\EdgeDetection::<b>GRADIENT_NORTH</b></a></code></span>, <span>integer <var>$divisor</var> = <span class="php-num">1.0</span></span>, <span>integer <var>$offset</var> = <span class="php-num">0.0</span></span> )</code>
+
+			<div class="description short">
+				
+<p>construct new edge detection action</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>construct new edge detection action</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>string</code><br>$type</dd>
+						<dt><var>$divisor</var></dt>
+						<dd><code>integer</code><br>$divisor</dd>
+						<dt><var>$offset</var></dt>
+						<dd><code>integer</code><br>$offset</dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code>InvalidArgumentException</code><br />
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setType" id="_setType">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Action.EdgeDetection.html">Jaguar\Action\EdgeDetection</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setType">#</a>
+			<code>setType( <span>string <var>$type</var></span>, <span>integer <var>$divisor</var> = <span class="php-num">1.0</span></span>, <span>integer <var>$offset</var> = <span class="php-num">0.0</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Set edge type</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set edge type</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>string</code><br>$type</dd>
+						<dt><var>$divisor</var></dt>
+						<dd><code>integer</code><br>$divisor</dd>
+						<dt><var>$offset</var></dt>
+						<dd><code>integer</code><br>$offset</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Action.EdgeDetection.html">Jaguar\Action\EdgeDetection</a></code></code><br />
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code>InvalidArgumentException</code><br />
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getType" id="_getType">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getType">#</a>
+			<code>getType( )</code>
+
+			<div class="description short">
+				
+<p>Get edge type</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get edge type</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="doApply" id="_doApply">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_doApply">#</a>
+			<code>doApply( <span><code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code> <var>$canvas</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+		<h3>Methods inherited from <a href="class-Jaguar.Action.AbstractAction.html#methods">Jaguar\Action\AbstractAction</a></h3>
+		<p class="elementList">
+			<code><a href="class-Jaguar.Action.AbstractAction.html#_apply">apply()</a></code>
+		</p>
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+		<h2>Constants summary</h2>
+		<table class="summary table table-bordered table-striped" id="constants">
+		<tr data-order="GRADIENT_NORTH" id="GRADIENT_NORTH">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_NORTH</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.north'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_NORTH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_WEST" id="GRADIENT_WEST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_WEST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.west'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_WEST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_EAST" id="GRADIENT_EAST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_EAST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.east'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_EAST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_SOUTH" id="GRADIENT_SOUTH">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_SOUTH</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.souht'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_SOUTH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_NORTH_EAST" id="GRADIENT_NORTH_EAST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_NORTH_EAST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.north_east'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_NORTH_EAST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_NORTH_WEST" id="GRADIENT_NORTH_WEST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_NORTH_WEST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.north_west'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_NORTH_WEST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_SOUTH_EAST" id="GRADIENT_SOUTH_EAST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_SOUTH_EAST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.souht_east'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_SOUTH_EAST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="GRADIENT_SOUTH_WEST" id="GRADIENT_SOUTH_WEST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>GRADIENT_SOUTH_WEST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'gradient.souht_west'</span></code></td>
+			<td class="description"><div>
+				<a href="#GRADIENT_SOUTH_WEST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LINE_HORIZONTAL" id="LINE_HORIZONTAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LINE_HORIZONTAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'line.horizontal'</span></code></td>
+			<td class="description"><div>
+				<a href="#LINE_HORIZONTAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LINE_VERTICAL" id="LINE_VERTICAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LINE_VERTICAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'line.vertical'</span></code></td>
+			<td class="description"><div>
+				<a href="#LINE_VERTICAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LINE_LEFT_DIAGONAL" id="LINE_LEFT_DIAGONAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LINE_LEFT_DIAGONAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'line.left'</span></code></td>
+			<td class="description"><div>
+				<a href="#LINE_LEFT_DIAGONAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LINE_RIGHT_DIAGONAL" id="LINE_RIGHT_DIAGONAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LINE_RIGHT_DIAGONAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'line.right'</span></code></td>
+			<td class="description"><div>
+				<a href="#LINE_RIGHT_DIAGONAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="SOBEL_HORIZONTAL" id="SOBEL_HORIZONTAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>SOBEL_HORIZONTAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'sobel.horizontal'</span></code></td>
+			<td class="description"><div>
+				<a href="#SOBEL_HORIZONTAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="SOBEL_VERTICAL" id="SOBEL_VERTICAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>SOBEL_VERTICAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'sobel.vertical'</span></code></td>
+			<td class="description"><div>
+				<a href="#SOBEL_VERTICAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="PREWITT_HORIZONTAL" id="PREWITT_HORIZONTAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>PREWITT_HORIZONTAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'prewitt.horizontal'</span></code></td>
+			<td class="description"><div>
+				<a href="#PREWITT_HORIZONTAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="PREWITT_VERTICAL" id="PREWITT_VERTICAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>PREWITT_VERTICAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'prewitt.vertical'</span></code></td>
+			<td class="description"><div>
+				<a href="#PREWITT_VERTICAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="SCHARR_HORIZONTAL" id="SCHARR_HORIZONTAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>SCHARR_HORIZONTAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'scharr.horizontal'</span></code></td>
+			<td class="description"><div>
+				<a href="#SCHARR_HORIZONTAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="SCHARR_VERTICAL" id="SCHARR_VERTICAL">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>SCHARR_VERTICAL</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'scharr.vertical'</span></code></td>
+			<td class="description"><div>
+				<a href="#SCHARR_VERTICAL" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_NORTH" id="EMBOSS_NORTH">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_NORTH</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.north'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_NORTH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_NORTH_EAST" id="EMBOSS_NORTH_EAST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_NORTH_EAST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.north_east'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_NORTH_EAST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMOBOSS_EAST" id="EMOBOSS_EAST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMOBOSS_EAST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.east'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMOBOSS_EAST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_SOUTH_EAST" id="EMBOSS_SOUTH_EAST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_SOUTH_EAST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.south_east'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_SOUTH_EAST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_SOUTH" id="EMBOSS_SOUTH">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_SOUTH</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.souht'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_SOUTH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_SOUTH_WEST" id="EMBOSS_SOUTH_WEST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_SOUTH_WEST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.south_west'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_SOUTH_WEST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_WEST" id="EMBOSS_WEST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_WEST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.west'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_WEST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="EMBOSS_NORTH_WEST" id="EMBOSS_NORTH_WEST">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>EMBOSS_NORTH_WEST</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'emboss.north_west'</span></code></td>
+			<td class="description"><div>
+				<a href="#EMBOSS_NORTH_WEST" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LAPLACIAN_FILTER1" id="LAPLACIAN_FILTER1">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LAPLACIAN_FILTER1</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'laplacian_1'</span></code></td>
+			<td class="description"><div>
+				<a href="#LAPLACIAN_FILTER1" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LAPLACIAN_FILTER2" id="LAPLACIAN_FILTER2">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LAPLACIAN_FILTER2</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'laplacian_2'</span></code></td>
+			<td class="description"><div>
+				<a href="#LAPLACIAN_FILTER2" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LAPLACIAN_FILTER3" id="LAPLACIAN_FILTER3">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LAPLACIAN_FILTER3</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'laplacian_3'</span></code></td>
+			<td class="description"><div>
+				<a href="#LAPLACIAN_FILTER3" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="LAPLACIAN_FILTER4" id="LAPLACIAN_FILTER4">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>LAPLACIAN_FILTER4</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'laplacian_4'</span></code></td>
+			<td class="description"><div>
+				<a href="#LAPLACIAN_FILTER4" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FINDEDGE" id="FINDEDGE">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>FINDEDGE</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'findeedge'</span></code></td>
+			<td class="description"><div>
+				<a href="#FINDEDGE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Jaguar - PHP Graphic Library API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

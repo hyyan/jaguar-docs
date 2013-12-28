@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Jaguar\Format\Png | Jaguar - PHP Graphic Library</title>
+
+	<script type="text/javascript" src="resources/combined.js?1743152644"></script>
+	<script type="text/javascript" src="elementlist.js?2331560020"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Jaguar - PHP Graphic Library</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-Jaguar.Format.html" title="Summary of Jaguar\Format"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Jaguar.html">Jaguar<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.html">Action<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.Blur.html">Blur</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Pixelate.html">Pixelate</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Preset.html">Preset</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.html">Drawable<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Drawable.Border.html">Border</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Style.html">Style</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Text.html">Text</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Jaguar.Factory.html">Factory</a>
+						</li>
+				<li class="active"><a href="namespace-Jaguar.Format.html">Format</a>
+						</li>
+				<li><a href="namespace-Jaguar.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Jaguar.Format.Gd.html">Gd</a></li>
+				<li><a href="class-Jaguar.Format.Gif.html">Gif</a></li>
+				<li><a href="class-Jaguar.Format.Jpeg.html">Jpeg</a></li>
+				<li class="active"><a href="class-Jaguar.Format.Png.html">Png</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Png</h1>
+
+
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-Jaguar.AbstractCanvas.html"><span>Jaguar\AbstractCanvas</span></a>
+			
+			 implements 
+				<a href="class-Jaguar.CanvasInterface.html"><span>Jaguar\CanvasInterface</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+			<a href="class-Jaguar.CompressableCanvas.html"><span>Jaguar\CompressableCanvas</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Jaguar\Format\Png</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Jaguar.html">Jaguar</a>\<a href="namespace-Jaguar.Format.html">Format</a><br />
+		
+
+		<b>Located at</b> Jaguar/Format/Png.php<br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( <span><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>|<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>|file|null <var>$source</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$quality</var> = <span class="php-num">40</span></span>, <span>boolean <var>$saveAlpha</var> = <span class="php-keyword1">true</span></span>, <span>mixed <var>$filter</var> = <code><a href="class-Jaguar.Format.Png.html#ALL_FILTERS">Jaguar\Format\Png::<b>ALL_FILTERS</b></a></code></span> )</code>
+
+			<div class="description short">
+				
+<p>construct new png canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>construct new png canvas</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$source</var></dt>
+						<dd><code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>|<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>|file|null</code><br>$source</dd>
+						<dt><var>$quality</var></dt>
+						<dd><code>integer</code><br>$quality default 40</dd>
+						<dt><var>$saveAlpha</var></dt>
+						<dd><code>boolean</code><br>$saveAlpha default true</dd>
+						<dt><var>$filter</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Exception.InvalidDimensionException.html">Jaguar\Exception\InvalidDimensionException</a></code></code><br />
+						<code><code><a href="class-Jaguar.Exception.CanvasCreationException.html">Jaguar\Exception\CanvasCreationException</a></code></code><br />
+					</div>
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.CompressableCanvas.html#___construct">Jaguar\CompressableCanvas::__construct</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setSaveAlpha" id="_setSaveAlpha">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Format.Png.html">Jaguar\Format\Png</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setSaveAlpha">#</a>
+			<code>setSaveAlpha( <span>boolean <var>$bool</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Save Alpha Channel Information</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Save Alpha Channel Information</p>
+
+<p>Sets the flag to attempt to save full alpha channel information (as opposed
+to single-color transparency) when <b>saving</b> PNG images.</p>
+
+<p>Also Note that the alphaBelnding will be set to false in order to enable this
+option.</p>
+
+<p><b>Note </b> Alpha channel is not supported by all browsers.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$bool</var></dt>
+						<dd><code>boolean</code><br>$bool</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Format.Png.html">Jaguar\Format\Png</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getSaveAlpha" id="_getSaveAlpha">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getSaveAlpha">#</a>
+			<code>getSaveAlpha( )</code>
+
+			<div class="description short">
+				
+<p>Get Save Alpha</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get Save Alpha</p>
+
+<p>Check if the channel information will be saved with canvas or not</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFilter" id="_setFilter">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Format.Png.html">Jaguar\Format\Png</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFilter">#</a>
+			<code>setFilter( <span>integer <var>$filter</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set the png filter constant</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set the png filter constant</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$filter</var></dt>
+						<dd><code>integer</code><br>$filter</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Format.Png.html">Jaguar\Format\Png</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFilter" id="_getFilter">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFilter">#</a>
+			<code>getFilter( )</code>
+
+			<div class="description short">
+				
+<p>Get the png filter constant</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the png filter constant</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="isPngFile" id="_isPngFile">
+
+			<td class="attributes"><code>
+				 public static
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_isPngFile">#</a>
+			<code>isPngFile( <span>string <var>$filename</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Check if the given file is png file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if the given file is png file</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$filename</var></dt>
+						<dd><code>string</code><br>$filename</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>true if png file,false otherwise<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+		<h3>Methods inherited from <a href="class-Jaguar.CompressableCanvas.html#methods">Jaguar\CompressableCanvas</a></h3>
+		<p class="elementList">
+			<code><a href="class-Jaguar.CompressableCanvas.html#_getQuality">getQuality()</a></code>, 
+			<code><a href="class-Jaguar.CompressableCanvas.html#_setQuality">setQuality()</a></code>
+		</p>
+		<h3>Methods inherited from <a href="class-Jaguar.AbstractCanvas.html#methods">Jaguar\AbstractCanvas</a></h3>
+		<p class="elementList">
+			<code><a href="class-Jaguar.AbstractCanvas.html#___clone">__clone()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#___toString">__toString()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_alphaBlending">alphaBlending()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_create">create()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_destroy">destroy()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_draw">draw()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fill">fill()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fromCanvas">fromCanvas()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fromFile">fromFile()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fromString">fromString()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getCopy">getCopy()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getDimension">getDimension()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getHandler">getHandler()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getHeight">getHeight()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getPixel">getPixel()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getWidth">getWidth()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_isGdResource">isGdResource()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_isHandlerSet">isHandlerSet()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_isTrueColor">isTrueColor()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_paste">paste()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_save">save()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_setHandler">setHandler()</a></code>
+		</p>
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+		<h2>Constants summary</h2>
+		<table class="summary table table-bordered table-striped" id="constants">
+		<tr data-order="NO_FILTER" id="NO_FILTER">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>NO_FILTER</b>			</code></td>
+			<td class="value"><code>PNG_NO_FILTER</code></td>
+			<td class="description"><div>
+				<a href="#NO_FILTER" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FILTER_NONE" id="FILTER_NONE">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>FILTER_NONE</b>			</code></td>
+			<td class="value"><code>PNG_FILTER_NONE</code></td>
+			<td class="description"><div>
+				<a href="#FILTER_NONE" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FILTER_SUB" id="FILTER_SUB">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>FILTER_SUB</b>			</code></td>
+			<td class="value"><code>PNG_FILTER_SUB</code></td>
+			<td class="description"><div>
+				<a href="#FILTER_SUB" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FILTER_UP" id="FILTER_UP">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>FILTER_UP</b>			</code></td>
+			<td class="value"><code>PNG_FILTER_UP</code></td>
+			<td class="description"><div>
+				<a href="#FILTER_UP" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FILTER_AVG" id="FILTER_AVG">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>FILTER_AVG</b>			</code></td>
+			<td class="value"><code>PNG_FILTER_AVG</code></td>
+			<td class="description"><div>
+				<a href="#FILTER_AVG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="FILTER_PAETH" id="FILTER_PAETH">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>FILTER_PAETH</b>			</code></td>
+			<td class="value"><code>PNG_FILTER_PAETH</code></td>
+			<td class="description"><div>
+				<a href="#FILTER_PAETH" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="ALL_FILTERS" id="ALL_FILTERS">
+
+			<td class="attributes"><code>integer</code></td>
+			<td class="name"><code>
+<b>ALL_FILTERS</b>			</code></td>
+			<td class="value"><code>PNG_ALL_FILTERS</code></td>
+			<td class="description"><div>
+				<a href="#ALL_FILTERS" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+		<h3>Constants inherited from <a href="class-Jaguar.CompressableCanvas.html#constants">Jaguar\CompressableCanvas</a></h3>
+		<p class="elementList">
+			<code><a href="class-Jaguar.CompressableCanvas.html#QUALITY_DRAFT"><b>QUALITY_DRAFT</b></a></code>, 
+			<code><a href="class-Jaguar.CompressableCanvas.html#QUALITY_HIGH"><b>QUALITY_HIGH</b></a></code>, 
+			<code><a href="class-Jaguar.CompressableCanvas.html#QUALITY_LOW"><b>QUALITY_LOW</b></a></code>, 
+			<code><a href="class-Jaguar.CompressableCanvas.html#QUALITY_MAX"><b>QUALITY_MAX</b></a></code>, 
+			<code><a href="class-Jaguar.CompressableCanvas.html#QUALITY_MED"><b>QUALITY_MED</b></a></code>
+		</p>
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Jaguar - PHP Graphic Library API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

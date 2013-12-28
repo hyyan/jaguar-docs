@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Jaguar\Canvas | Jaguar - PHP Graphic Library</title>
+
+	<script type="text/javascript" src="resources/combined.js?1743152644"></script>
+	<script type="text/javascript" src="elementlist.js?2331560020"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Jaguar - PHP Graphic Library</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-Jaguar.html" title="Summary of Jaguar"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Jaguar.html">Jaguar<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.html">Action<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.Blur.html">Blur</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Pixelate.html">Pixelate</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Preset.html">Preset</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.html">Drawable<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Drawable.Border.html">Border</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Style.html">Style</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Text.html">Text</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Jaguar.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Jaguar.Format.html">Format</a>
+						</li>
+				<li><a href="namespace-Jaguar.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Jaguar.AbstractCanvas.html">AbstractCanvas</a></li>
+				<li><a href="class-Jaguar.Box.html">Box</a></li>
+				<li class="active"><a href="class-Jaguar.Canvas.html">Canvas</a></li>
+				<li><a href="class-Jaguar.CompressableCanvas.html">CompressableCanvas</a></li>
+				<li><a href="class-Jaguar.Coordinate.html">Coordinate</a></li>
+				<li><a href="class-Jaguar.Dimension.html">Dimension</a></li>
+				<li><a href="class-Jaguar.Font.html">Font</a></li>
+				<li><a href="class-Jaguar.ImageFile.html">ImageFile</a></li>
+				<li><a href="class-Jaguar.Transformation.html">Transformation</a></li>
+				<li><a href="class-Jaguar.Util.html">Util</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Jaguar.CanvasFactory.html">CanvasFactory</a></li>
+				<li><a href="class-Jaguar.CanvasInterface.html">CanvasInterface</a></li>
+				<li><a href="class-Jaguar.EqualsInterface.html">EqualsInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Canvas</h1>
+
+
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-Jaguar.AbstractCanvas.html"><span>Jaguar\AbstractCanvas</span></a>
+			
+			 implements 
+				<a href="class-Jaguar.CanvasInterface.html"><span>Jaguar\CanvasInterface</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Jaguar\Canvas</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Jaguar.html">Jaguar</a><br />
+		
+
+		<b>Located at</b> Jaguar/Canvas.php<br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( <span><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>|<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>|file|null <var>$source</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$factoryName</var> = <code><a href="class-Jaguar.Canvas.html#Format_PNG">Jaguar\Canvas::<b>Format_PNG</b></a></code></span> )</code>
+
+			<div class="description short">
+				
+<p>construct new canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>construct new canvas</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$source</var></dt>
+						<dd><code><code><a href="class-Jaguar.Dimension.html">Jaguar\Dimension</a></code>|<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>|file|null</code><br>$source</dd>
+						<dt><var>$factoryName</var></dt>
+						<dd><code>string</code><br>$factoryName factory name</dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Exception.InvalidDimensionException.html">Jaguar\Exception\InvalidDimensionException</a></code></code><br />
+						<code><code><a href="class-Jaguar.Exception.CanvasCreationException.html">Jaguar\Exception\CanvasCreationException</a></code></code><br />
+					</div>
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#___construct">Jaguar\AbstractCanvas::__construct</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFormat" id="_setFormat">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Canvas.html">Jaguar\Canvas</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFormat">#</a>
+			<code>setFormat( <span>string <var>$name</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set canvas factory</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set canvas factory</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name factory's name</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Canvas.html">Jaguar\Canvas</a></code></code><br />
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code>InvalidArgumentException</code><br />
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getActiveFactoryName" id="_getActiveFactoryName">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getActiveFactoryName">#</a>
+			<code>getActiveFactoryName( )</code>
+
+			<div class="description short">
+				
+<p>Get the name of the active factory</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the name of the active factory</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getActiveFactory" id="_getActiveFactory">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.CanvasFactory.html">Jaguar\CanvasFactory</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getActiveFactory">#</a>
+			<code>getActiveFactory( )</code>
+
+			<div class="description short">
+				
+<p>Get atcive factory instance</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get atcive factory instance</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.CanvasFactory.html">Jaguar\CanvasFactory</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getActiveCanvas" id="_getActiveCanvas">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getActiveCanvas">#</a>
+			<code>getActiveCanvas( )</code>
+
+			<div class="description short">
+				
+<p>Get instance of the active canvas which the current canvas wraps</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get instance of the active canvas which the current canvas wraps</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addFactory" id="_addFactory">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Canvas.html">Jaguar\Canvas</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addFactory">#</a>
+			<code>addFactory( <span>string <var>$name</var></span>, <span><code><a href="class-Jaguar.CanvasFactory.html">Jaguar\CanvasFactory</a></code> <var>$factory</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Add new factory</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Add new factory</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name factory name</dd>
+						<dt><var>$factory</var></dt>
+						<dd><code><code><a href="class-Jaguar.CanvasFactory.html">Jaguar\CanvasFactory</a></code></code><br>$factory factory instance</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Canvas.html">Jaguar\Canvas</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFactory" id="_setFactory">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Canvas.html">Jaguar\Canvas</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFactory">#</a>
+			<code>setFactory( <span>array <var>$factories</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Add array of factories</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Add array of factories</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$factories</var></dt>
+						<dd><code>array</code><br>$factories</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Canvas.html">Jaguar\Canvas</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFactory" id="_getFactory">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.CanvasFactory.html">Jaguar\CanvasFactory</a></code>|false
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFactory">#</a>
+			<code>getFactory( <span>string <var>$name</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Get factory by its name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get factory by its name</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name factory name</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.CanvasFactory.html">Jaguar\CanvasFactory</a></code>|false</code><br>false if not found<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="removeFactory" id="_removeFactory">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_removeFactory">#</a>
+			<code>removeFactory( <span>string <var>$name</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Remove factory by its name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Remove factory by its name</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name factory name</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>true if removed false otherwise<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="hasFactory" id="_hasFactory">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_hasFactory">#</a>
+			<code>hasFactory( <span>string <var>$name</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Check if the given factory name is registered</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if the given factory name is registered</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name tyep name</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>true if found false otherwise<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFactories" id="_getFactories">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFactories">#</a>
+			<code>getFactories( )</code>
+
+			<div class="description short">
+				
+<p>Get all registered factories</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get all registered factories</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getMimeType" id="_getMimeType">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getMimeType">#</a>
+			<code>getMimeType( )</code>
+
+			<div class="description short">
+				
+<p>Get canvas mime type</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get canvas mime type</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getExtension" id="_getExtension">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getExtension">#</a>
+			<code>getExtension( <span>boolean <var>$includeDot</var> = <span class="php-keyword1">true</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Get canvas extension</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get canvas extension</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$includeDot</var></dt>
+						<dd><code>boolean</code><br>$includeDot true to inlcude dot false to ignore it</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="show" id="_show">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_show">#</a>
+			<code>show( )</code>
+
+			<div class="description short">
+				
+<p>Output raw canvas directly to the browser</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Output raw canvas directly to the browser</p>
+
+<p><b>Note : </b> The write header for every canvas Format will be send also</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__call" id="___call">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___call">#</a>
+			<code>__call( <span>string <var>$name</var></span>, <span>mixed <var>$arguments</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Call metgod from the current active canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Call metgod from the current active canvas</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>string</code><br>$name</dd>
+						<dt><var>$arguments</var></dt>
+						<dd><code>mixed</code><br>$arguments</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="fromCanvas" id="_fromCanvas">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_fromCanvas">#</a>
+			<code>fromCanvas( <span><code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code> <var>$canvas</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Replace this canvas handler with a new one loaded from another canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Replace this canvas handler with a new one loaded from another canvas</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$canvas</var></dt>
+						<dd><code><code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code></code><br>$canvas</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code></code><br>self<br />
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Exception.CanvasEmptyException.html">Jaguar\Exception\CanvasEmptyException</a></code></code><br />
+						<code>Jaguar\Exception\CanvasException;</code><br />
+					</div>
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#_fromCanvas">Jaguar\AbstractCanvas::fromCanvas</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setHandler" id="_setHandler">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setHandler">#</a>
+			<code>setHandler( <span>resource <var>$handler</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set canvas handler</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set canvas handler</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$handler</var></dt>
+						<dd><code>resource</code><br>$handler gd resource</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.CanvasInterface.html">Jaguar\CanvasInterface</a></code></code><br />
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code>InvalidArgumentException</code><br />
+					</div>
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#_setHandler">Jaguar\AbstractCanvas::setHandler</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getHandler" id="_getHandler">
+
+			<td class="attributes"><code>
+				 public 
+				resource
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getHandler">#</a>
+			<code>getHandler( )</code>
+
+			<div class="description short">
+				
+<p>Get canvas handler</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get canvas handler</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>resource</code><br>gd resource<br />
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#_getHandler">Jaguar\AbstractCanvas::getHandler</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="isHandlerSet" id="_isHandlerSet">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_isHandlerSet">#</a>
+			<code>isHandlerSet( )</code>
+
+			<div class="description short">
+				
+<p>Check if the handler is empty</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if the handler is empty</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#_isHandlerSet">Jaguar\AbstractCanvas::isHandlerSet</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__clone" id="___clone">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___clone">#</a>
+			<code>__clone( )</code>
+
+			<div class="description short">
+				
+<p>Clone canvas</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Clone canvas</p>
+
+
+
+
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#___clone">Jaguar\AbstractCanvas::__clone</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__toString" id="___toString">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___toString">#</a>
+			<code>__toString( )</code>
+
+			<div class="description short">
+				
+<p>Get a string representation of the current canvas object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get a string representation of the current canvas object</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-Jaguar.AbstractCanvas.html#___toString">Jaguar\AbstractCanvas::__toString</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+		<h3>Methods inherited from <a href="class-Jaguar.AbstractCanvas.html#methods">Jaguar\AbstractCanvas</a></h3>
+		<p class="elementList">
+			<code><a href="class-Jaguar.AbstractCanvas.html#_alphaBlending">alphaBlending()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_create">create()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_destroy">destroy()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_draw">draw()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fill">fill()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fromFile">fromFile()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_fromString">fromString()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getCopy">getCopy()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getDimension">getDimension()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getHeight">getHeight()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getPixel">getPixel()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_getWidth">getWidth()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_isGdResource">isGdResource()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_isTrueColor">isTrueColor()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_paste">paste()</a></code>, 
+			<code><a href="class-Jaguar.AbstractCanvas.html#_save">save()</a></code>
+		</p>
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+		<h2>Constants summary</h2>
+		<table class="summary table table-bordered table-striped" id="constants">
+		<tr data-order="Format_PNG" id="Format_PNG">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>Format_PNG</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'factory.png'</span></code></td>
+			<td class="description"><div>
+				<a href="#Format_PNG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="Format_JPEG" id="Format_JPEG">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>Format_JPEG</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'factory.jpeg'</span></code></td>
+			<td class="description"><div>
+				<a href="#Format_JPEG" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="Format_GIF" id="Format_GIF">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>Format_GIF</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'factory.gif'</span></code></td>
+			<td class="description"><div>
+				<a href="#Format_GIF" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="Format_GD" id="Format_GD">
+
+			<td class="attributes"><code>string</code></td>
+			<td class="name"><code>
+<b>Format_GD</b>			</code></td>
+			<td class="value"><code><span class="php-quote">'factory.gd2'</span></code></td>
+			<td class="description"><div>
+				<a href="#Format_GD" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Jaguar - PHP Graphic Library API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

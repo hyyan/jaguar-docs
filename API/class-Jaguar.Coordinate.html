@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Jaguar\Coordinate | Jaguar - PHP Graphic Library</title>
+
+	<script type="text/javascript" src="resources/combined.js?1743152644"></script>
+	<script type="text/javascript" src="elementlist.js?2331560020"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min.css?260161822" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?2015443609" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Jaguar - PHP Graphic Library</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-Jaguar.html" title="Summary of Jaguar"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Jaguar.html">Jaguar<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.html">Action<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Action.Blur.html">Blur</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Pixelate.html">Pixelate</a>
+						</li>
+				<li><a href="namespace-Jaguar.Action.Preset.html">Preset</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Color.html">Color</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.html">Drawable<span></span></a>
+						<ul>
+				<li><a href="namespace-Jaguar.Drawable.Border.html">Border</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Style.html">Style</a>
+						</li>
+				<li><a href="namespace-Jaguar.Drawable.Text.html">Text</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Jaguar.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Jaguar.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Jaguar.Format.html">Format</a>
+						</li>
+				<li><a href="namespace-Jaguar.Gradient.html">Gradient</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Jaguar.AbstractCanvas.html">AbstractCanvas</a></li>
+				<li><a href="class-Jaguar.Box.html">Box</a></li>
+				<li><a href="class-Jaguar.Canvas.html">Canvas</a></li>
+				<li><a href="class-Jaguar.CompressableCanvas.html">CompressableCanvas</a></li>
+				<li class="active"><a href="class-Jaguar.Coordinate.html">Coordinate</a></li>
+				<li><a href="class-Jaguar.Dimension.html">Dimension</a></li>
+				<li><a href="class-Jaguar.Font.html">Font</a></li>
+				<li><a href="class-Jaguar.ImageFile.html">ImageFile</a></li>
+				<li><a href="class-Jaguar.Transformation.html">Transformation</a></li>
+				<li><a href="class-Jaguar.Util.html">Util</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Jaguar.CanvasFactory.html">CanvasFactory</a></li>
+				<li><a href="class-Jaguar.CanvasInterface.html">CanvasInterface</a></li>
+				<li><a href="class-Jaguar.EqualsInterface.html">EqualsInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Coordinate</h1>
+
+
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+<b><span>Jaguar\Coordinate</span></b>			
+			 implements 
+				<a href="class-Jaguar.EqualsInterface.html"><span>Jaguar\EqualsInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Jaguar.html">Jaguar</a><br />
+		
+
+		<b>Located at</b> Jaguar/Coordinate.php<br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( <span>integer <var>$x</var> = <span class="php-num">0</span></span>, <span>integer <var>$y</var> = <span class="php-num">0</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Construct New Coordinate Object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Construct New Coordinate Object</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$x</var></dt>
+						<dd><code>integer</code><br>$x x pos</dd>
+						<dt><var>$y</var></dt>
+						<dd><code>integer</code><br>$y y pos</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setX" id="_setX">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setX">#</a>
+			<code>setX( <span>integer <var>$x</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set X Position</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set X Position</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$x</var></dt>
+						<dd><code>integer</code><br>$x</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getX" id="_getX">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getX">#</a>
+			<code>getX( )</code>
+
+			<div class="description short">
+				
+<p>Get X Position</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get X Position</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setY" id="_setY">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setY">#</a>
+			<code>setY( <span>integer <var>$y</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set Y Position</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set Y Position</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$y</var></dt>
+						<dd><code>integer</code><br>$y</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getY" id="_getY">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getY">#</a>
+			<code>getY( )</code>
+
+			<div class="description short">
+				
+<p>Get Y position</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get Y position</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setLocation" id="_setLocation">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setLocation">#</a>
+			<code>setLocation( <span><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code> <var>$coordinate</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Chage the current coordinate location to match the passed coordinate
+location</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Chage the current coordinate location to match the passed coordinate
+location</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$coordinate</var></dt>
+						<dd><code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br>$coordinate</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getLocation" id="_getLocation">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getLocation">#</a>
+			<code>getLocation( )</code>
+
+			<div class="description short">
+				
+<p>Get New Coordinate Object with same location of the current one</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get New Coordinate Object with same location of the current one</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="move" id="_move">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_move">#</a>
+			<code>move( <span>integer <var>$x</var></span>, <span>integer <var>$y</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Moves this coordinate to the specified location in the (x,y) coordinate
+plane.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Moves this coordinate to the specified location in the (x,y) coordinate
+plane.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$x</var></dt>
+						<dd><code>integer</code><br>$x</dd>
+						<dt><var>$y</var></dt>
+						<dd><code>integer</code><br>$y</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="translate" id="_translate">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_translate">#</a>
+			<code>translate( <span>integer <var>$dx</var></span>, <span>integer <var>$dy</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Translates this point, at location (x,y), by {dx} along the {x} axis and {dy}
+along the {y} axis so that it now represents the coordinate {x+dx,y+dy)}.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Translates this point, at location (x,y), by {dx} along the {x} axis and {dy}
+along the {y} axis so that it now represents the coordinate {x+dx,y+dy)}.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$dx</var></dt>
+						<dd><code>integer</code><br>$x the distance to move this coordinate along the X axis</dd>
+						<dt><var>$dy</var></dt>
+						<dd><code>integer</code><br>$y the distance to move this coordinate along the Y axis</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Coordinate.html">Jaguar\Coordinate</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="equals" id="_equals">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_equals">#</a>
+			<code>equals( <span>mixed <var>$other</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Check that the current object which implements this interfcae is equal to
+another object from the same type</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check that the current object which implements this interfcae is equal to
+another object from the same type</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$other</var></dt>
+						<dd><code>mixed</code><br>$other</dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code>InvalidArgumentException</code><br>if the passed param type is invalid<br />
+					</div>
+
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-Jaguar.EqualsInterface.html#_equals">Jaguar\EqualsInterface::equals()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__toString" id="___toString">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___toString">#</a>
+			<code>__toString( )</code>
+
+			<div class="description short">
+				
+<p>Returns a string representation of the current coordinate object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns a string representation of the current coordinate object</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Jaguar - PHP Graphic Library API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>
