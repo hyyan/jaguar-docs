@@ -11,6 +11,7 @@ Welcome to Jaguar - PHP Graphic Library's documentation!
    
    usage/Geometry System
    usage/Colors
+   usage/Canvas
 	
 Indices and tables
 ==================
