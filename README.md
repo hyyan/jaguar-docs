@@ -1,4 +1,4 @@
-jaguar-docs
+Jaguar-docs
 ===========
 
 Jaguar - PHP Graphic Libraray Documentations
