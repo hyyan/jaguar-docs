@@ -60,6 +60,7 @@ request. If you modify Jaguar API, please update the API documentation in the
 	Jaguar uses ApiGen project as documentation generator . take a look at
 	the `ApiGen project`_
 
+
 You can update API documentation by running :
 
 .. code-block:: none
