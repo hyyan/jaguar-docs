@@ -4,7 +4,7 @@
 Welcome to Jaguar - PHP Graphic Library's documentation!
 ========================================================
 
-Jaguar is a PHP5.3 OOP graphic library was built on the Greate `GD Library`_ using 
+Jaguar is a PHP5.3 OOP graphic library was built on the Great `GD Library`_ using 
 the best practices to build a stable and fast layer for image manipulation and 
 drawing.
 
@@ -59,6 +59,7 @@ request. If you modify Jaguar API, please update the API documentation in the
 	
 	Jaguar uses ApiGen project as documentation generator . take a look at
 	the `ApiGen project`_
+
 
 You can update API documentation by running :
 
