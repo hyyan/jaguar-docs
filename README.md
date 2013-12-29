@@ -1,7 +1,7 @@
 Jaguar-docs
 ===========
 
-Jaguar - PHP Graphic Libraray Documentations
+Jaguar - PHP Graphic Library Documentations
 
 This documentation is rendered online at http://jaguar.readthedocs.org/
 
