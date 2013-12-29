@@ -1,6 +1,8 @@
 Jaguar-docs
 ===========
 
+[![project status](http://stillmaintained.com/hyyan/jaguar-docs.png)](http://stillmaintained.com/hyyan/jaguar-docs)
+
 Jaguar - PHP Graphic Library Documentations
 
 This documentation is rendered online at http://jaguar.readthedocs.org/
