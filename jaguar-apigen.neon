@@ -1,0 +1,17 @@
+# Source file or directory to parse
+source: ./Jaguar/src
+# Directory where to save the generated documentation
+destination: ./Jaguar-documentation/API
+# List of allowed file extensions
+extensions: [php]
+# Title of generated documentation
+title: Jaguar - PHP Graphic Library
+# Generate documentation for methods and properties with given access level
+accessLevels: [public]
+# Generate documentation for PHP internal classes
+php: no
+# Generate tree view of classes, interfaces and exceptions
+tree: Yes
+# Generate highlighted source code files
+sourceCode: no
+
