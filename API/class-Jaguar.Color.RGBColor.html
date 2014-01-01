@@ -694,7 +694,7 @@ RGBColor::CHANNEL_GREEN, - RGBColor::CHANNEL_BLUE, - RGBColor::CHANNEL_ALPHA,</d
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="setRGBColor" id="_setRGBColor">
+		<tr data-order="setFromRGBColor" id="_setFromRGBColor">
 
 			<td class="attributes"><code>
 				 public 
@@ -704,18 +704,18 @@ RGBColor::CHANNEL_GREEN, - RGBColor::CHANNEL_BLUE, - RGBColor::CHANNEL_ALPHA,</d
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_setRGBColor">#</a>
-			<code>setRGBColor( <span><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code> <var>$color</var></span> )</code>
+			<a class="anchor" href="#_setFromRGBColor">#</a>
+			<code>setFromRGBColor( <span><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code> <var>$color</var></span> )</code>
 
 			<div class="description short">
 				
-<p>Set new color</p>
+<p>Set color from another color object</p>
 
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Set new color</p>
+<p>Set color from another color object</p>
 
 
 
@@ -723,6 +723,136 @@ RGBColor::CHANNEL_GREEN, - RGBColor::CHANNEL_BLUE, - RGBColor::CHANNEL_ALPHA,</d
 					<div class="list"><dl>
 						<dt><var>$color</var></dt>
 						<dd><code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br>$color</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFromArray" id="_setFromArray">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFromArray">#</a>
+			<code>setFromArray( <span>array <var>$color</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set color from array</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set color from array</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$color</var></dt>
+						<dd><code>array</code><br>$color array with (red,green,blue,alpha) values</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFromValue" id="_setFromValue">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFromValue">#</a>
+			<code>setFromValue( <span>integer <var>$rgb</var></span>, <span>boolean <var>$hasalpha</var> = <span class="php-keyword1">true</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Set color from rgb integer</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set color from rgb integer</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$rgb</var></dt>
+						<dd><code>integer</code><br>$rgb</dd>
+						<dt><var>$hasalpha</var></dt>
+						<dd><code>boolean</code><br>$hasalpha true if the rgb contains the alpha and false if not</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFromHex" id="_setFromHex">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFromHex">#</a>
+			<code>setFromHex( <span>string <var>$hex</var></span>, <span>integer <var>$alpha</var> = <span class="php-num">0</span></span> )</code>
+
+			<div class="description short">
+				
+<p>Set color from hex string</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set color from hex string</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$hex</var></dt>
+						<dd><code>string</code><br>$hex color in hex format</dd>
+						<dt><var>$alpha</var></dt>
+						<dd><code>integer</code><br>$alpha alpha value</dd>
 					</dl></div>
 
 					<h4>Returns</h4>
@@ -751,13 +881,13 @@ RGBColor::CHANNEL_GREEN, - RGBColor::CHANNEL_BLUE, - RGBColor::CHANNEL_ALPHA,</d
 
 			<div class="description short">
 				
-<p>Get new color object which equals to the current one</p>
+<p>Get new color object which is equal to the current one</p>
 
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Get new color object which equals to the current one</p>
+<p>Get new color object which is equal to the current one</p>
 
 
 
@@ -788,15 +918,13 @@ RGBColor::CHANNEL_GREEN, - RGBColor::CHANNEL_BLUE, - RGBColor::CHANNEL_ALPHA,</d
 
 			<div class="description short">
 				
-<p>Returns a copy of current color, incrementing the alpha channel by the given
-amount</p>
+<p>incrementing the alpha channel by the given amount</p>
 
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Returns a copy of current color, incrementing the alpha channel by the given
-amount</p>
+<p>incrementing the alpha channel by the given amount</p>
 
 
 
@@ -811,10 +939,6 @@ amount</p>
 						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
 					</div>
 
-					<h4>Throws</h4>
-					<div class="list">
-						<code>InvalidArgumentException</code><br />
-					</div>
 
 
 
@@ -909,6 +1033,50 @@ shades</p>
 			</div>
 			</div></td>
 		</tr>
+		<tr data-order="blend" id="_blend">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_blend">#</a>
+			<code>blend( <span><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code> <var>$color</var></span>, <span>float <var>$amount</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Blend current color with the given new color and the amount</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Blend current color with the given new color and the amount</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$color</var></dt>
+						<dd><code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br>$color another color</dd>
+						<dt><var>$amount</var></dt>
+						<dd><code>float</code><br>$amount The amount of curennt color in the given color</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
 		<tr data-order="grayscale" id="_grayscale">
 
 			<td class="attributes"><code>
@@ -924,13 +1092,13 @@ shades</p>
 
 			<div class="description short">
 				
-<p>Returns a gray related to the current color</p>
+<p>Gray current color</p>
 
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Returns a gray related to the current color</p>
+<p>Gray current color</p>
 
 
 
@@ -989,45 +1157,33 @@ shades</p>
 
 			<td class="attributes"><code>
 				 public static
-				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_fromValue">#</a>
-			<code>fromValue( <span>integer <var>$rgb</var></span>, <span>boolean <var>$hasalpha</var> = <span class="php-keyword1">true</span></span> )</code>
+			<code>fromValue( <span>mixed <var>$rgb</var></span>, <span>mixed <var>$hasalpha</var> = <span class="php-keyword1">true</span></span> )</code>
 
 			<div class="description short">
 				
-<p>Return new color object from rgb integer</p>
-
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Return new color object from rgb integer</p>
 
 
 
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$rgb</var></dt>
-						<dd><code>integer</code><br>$rgb</dd>
-						<dt><var>$hasalpha</var></dt>
-						<dd><code>boolean</code><br>$hasalpha true if the rgb contains the alpha and false if not</dd>
-					</dl></div>
 
-					<h4>Returns</h4>
+
+					<h4>See</h4>
 					<div class="list">
-						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+							<code><code><a href="class-Jaguar.Color.RGBColor.html#_setFromValue">Jaguar\Color\RGBColor::setFromValue()</a></code></code><br />
 					</div>
-
-					<h4>Throws</h4>
+					<h4>CodeCoverageIgnore</h4>
 					<div class="list">
-						<code>InvalidArgumentException</code><br />
 					</div>
-
 
 
 			</div>
@@ -1037,91 +1193,69 @@ shades</p>
 
 			<td class="attributes"><code>
 				 public static
-				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_fromHex">#</a>
-			<code>fromHex( <span>string <var>$hex</var></span>, <span>integer <var>$alpha</var> = <span class="php-num">0</span></span> )</code>
+			<code>fromHex( <span>mixed <var>$hex</var></span>, <span>mixed <var>$alpha</var> = <span class="php-num">0</span></span> )</code>
 
 			<div class="description short">
 				
-<p>Retuen new color object from hex string</p>
-
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Retuen new color object from hex string</p>
 
 
 
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$hex</var></dt>
-						<dd><code>string</code><br>$hex color int hex format</dd>
-						<dt><var>$alpha</var></dt>
-						<dd><code>integer</code><br>$alpha alpha value</dd>
-					</dl></div>
 
-					<h4>Returns</h4>
+
+					<h4>See</h4>
 					<div class="list">
-						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+							<code><code><a href="class-Jaguar.Color.RGBColor.html#_setFromHex">Jaguar\Color\RGBColor::setFromHex()</a></code></code><br />
 					</div>
-
-					<h4>Throws</h4>
+					<h4>CodeCoverageIgnore</h4>
 					<div class="list">
-						<code>InvalidArgumentException</code><br />
 					</div>
-
 
 
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="blend" id="_blend">
+		<tr data-order="fromArray" id="_fromArray">
 
 			<td class="attributes"><code>
 				 public static
-				<code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code>
+				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_blend">#</a>
-			<code>blend( <span><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code> <var>$color1</var></span>, <span><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code> <var>$color2</var></span>, <span>float <var>$amount</var></span> )</code>
+			<a class="anchor" href="#_fromArray">#</a>
+			<code>fromArray( <span>array <var>$color</var></span> )</code>
 
 			<div class="description short">
 				
-<p>Blend two colors given an amount</p>
-
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Blend two colors given an amount</p>
 
 
 
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$color1</var></dt>
-						<dd><code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br>$color1</dd>
-						<dt><var>$color2</var></dt>
-						<dd><code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br>$color2</dd>
-						<dt><var>$amount</var></dt>
-						<dd><code>float</code><br>$amount The amount of color2 in color1</dd>
-					</dl></div>
 
-					<h4>Returns</h4>
+
+					<h4>See</h4>
 					<div class="list">
-						<code><code><a href="class-Jaguar.Color.RGBColor.html">Jaguar\Color\RGBColor</a></code></code><br />
+							<code><code><a href="class-Jaguar.Color.RGBColor.html#_setFromArray">Jaguar\Color\RGBColor::setFromArray()</a></code></code><br />
 					</div>
-
-
+					<h4>CodeCoverageIgnore</h4>
+					<div class="list">
+					</div>
 
 
 			</div>
