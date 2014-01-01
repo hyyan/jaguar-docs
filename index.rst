@@ -11,12 +11,12 @@ drawing.
 **Something to mention**
 
 Jaguar was built on php gd extension and this extension is so famous with its
-*"limitations"* in the php community (Which is wrong by the way) like memory and 
+*"limitations"* in the php community like memory and 
 transparent problems for example.
 
 Thats's what Jaguar is for , overcome those *"limitations"* and let the programmer
-focus on the his/her application logic instead of spending hours trying to prserve
-the transparent of an image and finally moves to photoshop to solve the problem.
+focus on the his/her application logic instead of spending hours trying to solve
+image transparent problem for example and finally moving to photoshop to solve the problem.
 
 Installation
 -------------
@@ -75,6 +75,11 @@ You can update API documentation by running :
 	Jaguar follows the Symfony standards If you’re a beginner, you will find 
 	some guidelines about code contributions at `Symfony`_.
 	
+API
+----
+
+Jaguar API is available `here`_.
+
 .. toctree::
    :maxdepth: 3
    
@@ -97,3 +102,4 @@ Indices and tables
 .. _Jaguar Docs repository : http://www.github.com/hyyan/jaguar-docs
 .. _ApiGen project : http://apigen.org/
 .. _Symfony : http://symfony.com/doc/current/contributing/code/patches.html
+.. _here : ./_static/index.html 
