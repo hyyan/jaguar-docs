@@ -25,7 +25,7 @@ Installation via composer
 
 Simply add a dependency on hyyan/jaguar to your project's composer.json file. 
 Here is a minimal example of a composer.json file that just defines 
-a development-time dependency on PHPUnit 3.8:
+a development-time dependency on Jaguar 1.0:
 
 .. code-block:: json
 
